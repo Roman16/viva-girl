@@ -1,0 +1,102 @@
+.cherry-single-carousel-wrapper {
+    position: relative;
+    height: 700px;
+}
+.cherry-single-carousel-wrapper.loading {
+    visibility:hidden;
+}
+.cherry-single-carousel-container {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.cherry-single-carousel-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.cherry-single-carousel-item .background img {
+    max-width: none;
+}
+.cherry-single-carousel-item .foreground {
+    position: absolute;
+    bottom:100px;
+}
+.cherry-single-carousel-item .background {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.cherry-single-carousel-item .foreground .element {
+    position: relative;
+}
+.cherry-single-carousel-main-title {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 25;
+}
+.cherry-single-carousel-content-holder {
+    padding:0 5%;
+    text-align:center;
+}
+.cherry-single-carousel-pagination {
+    position: absolute;
+    width: 100%;
+    bottom: 25px;
+    left: 0;
+    text-align: center;
+    z-index: 20;
+}
+.cherry-single-carousel-pagination a {
+    margin: 5px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #fff;
+    background: none;
+}
+.cherry-single-carousel-pagination a.active, .cherry-single-carousel-pagination a:hover {
+    background: #fff;
+}
+.cherry-single-carousel-controls {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    z-index: 20;
+}
+.cherry-single-carousel-controls .prev {
+    left: 0;
+}
+.cherry-single-carousel-controls .prev:before {
+    content:'\f104';
+}
+.cherry-single-carousel-controls .next {
+    right: 0px;
+}
+.cherry-single-carousel-controls .next:before {
+    content:'\f105';
+}
+.cherry-single-carousel-controls a {
+    position: absolute;
+    display: block;
+    width: 55px;
+    height: 55px;
+    background: #000;
+    background: rgba(0,0,0,.5);
+    text-align: center;
+    font: 41px/55px FontAwesome;
+    color: #fff;
+}
+.cherry-single-carousel-controls a:hover {
+    background: rgba(0,0,0,1);
+}
